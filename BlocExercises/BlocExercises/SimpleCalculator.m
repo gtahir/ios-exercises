@@ -9,20 +9,39 @@
 #import "SimpleCalculator.h"
 
 @implementation SimpleCalculator
-
-- (NSInteger) increaseNumberBy1:(NSInteger) number {
+- (NSInteger) increaseNumberBy1:(NSInteger) Number {
     /* WORK HERE */
-    return number;
+    
+    NSLog(@"post-increment makes one: %ld", (long)++Number);
+    
+    
+    return Number;
 }
 
 - (NSInteger) addNumber:(NSInteger) number1 toNumber:(NSInteger) number2 {
     /* WORK HERE */
-    return number1;
+    NSInteger sum = number1 + number2;
+    
+    NSLog(@"first number is: %ld", (long)number1);
+    NSLog(@"second number is: %ld", (long)number2);
+    NSLog(@"sum is: %ld", (long)sum);
+
+    return sum;
 }
 
 - (NSInteger) remainderOfNumber:(NSInteger) dividend dividedByNumber:(NSInteger) divisor {
     /* WORK HERE */
-    return 0;
+    NSInteger remainder = dividend % divisor;
+    
+    NSLog(@"Number to be divided is: %ld", dividend);
+    NSLog(@"Number that is dividing is: %ld", divisor);
+    NSLog(@"Remainder of dividend / divisor: %ld", remainder);
+
+    return remainder;
+    
+    
+    
+    
 }
 
 @end

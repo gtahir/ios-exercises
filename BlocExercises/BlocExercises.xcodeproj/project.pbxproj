@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		17E46D20194763D70018BD4C /* EqualityDeterminer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E46D1F194763D70018BD4C /* EqualityDeterminer.m */; };
 		17E46D22194768C90018BD4C /* EqualityDeterminerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E46D21194768C90018BD4C /* EqualityDeterminerTests.m */; };
-		64787CE51A9D59F8003A575D /* WizardOfOz.m in Sources */ = {isa = PBXBuildFile; fileRef = 64787CE41A9D59F8003A575D /* WizardOfOz.m */; };
+		64787CE71A9D64EC003A575D /* WizardOfOz.m in Sources */ = {isa = PBXBuildFile; fileRef = 64787CE61A9D64EC003A575D /* WizardOfOz.m */; };
 		931AB0B11945063500B4FB76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B01945063500B4FB76 /* XCTest.framework */; };
 		931AB0B31945063500B4FB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B21945063500B4FB76 /* Foundation.framework */; };
 		931AB0B51945063500B4FB76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B41945063500B4FB76 /* UIKit.framework */; };
@@ -37,7 +37,7 @@
 		17E46D1E194763D70018BD4C /* EqualityDeterminer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualityDeterminer.h; sourceTree = "<group>"; };
 		17E46D1F194763D70018BD4C /* EqualityDeterminer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualityDeterminer.m; sourceTree = "<group>"; };
 		17E46D21194768C90018BD4C /* EqualityDeterminerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualityDeterminerTests.m; sourceTree = "<group>"; };
-		64787CE41A9D59F8003A575D /* WizardOfOz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WizardOfOz.m; path = ../../../../../.Trash/WizardOfOz.m; sourceTree = "<group>"; };
+		64787CE61A9D64EC003A575D /* WizardOfOz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardOfOz.m; sourceTree = "<group>"; };
 		931AB0AD1945063500B4FB76 /* BlocExercises.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocExercises.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		931AB0B01945063500B4FB76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		931AB0B21945063500B4FB76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -235,7 +235,7 @@
 		93BDE6AD194A6B3F00F2DE30 /* Unit Testing */ = {
 			isa = PBXGroup;
 			children = (
-				64787CE41A9D59F8003A575D /* WizardOfOz.m */,
+				64787CE61A9D64EC003A575D /* WizardOfOz.m */,
 				93BDE6B0194A6C8600F2DE30 /* WizardOfOz.h */,
 				93BDE6B3194A6D3F00F2DE30 /* WizardOfOzTests.m */,
 			);
@@ -309,7 +309,7 @@
 				936964A61947B26B0021C271 /* StarTrekArraysTests.m in Sources */,
 				17E46D20194763D70018BD4C /* EqualityDeterminer.m in Sources */,
 				17E46D22194768C90018BD4C /* EqualityDeterminerTests.m in Sources */,
-				64787CE51A9D59F8003A575D /* WizardOfOz.m in Sources */,
+				64787CE71A9D64EC003A575D /* WizardOfOz.m in Sources */,
 				931AB0CD19464C3500B4FB76 /* SimpleCalculatorTests.m in Sources */,
 				931AB0C5194508D300B4FB76 /* MarysAppleHandler.m in Sources */,
 				936964B01947CF820021C271 /* AwesomeCounterTests.m in Sources */,
