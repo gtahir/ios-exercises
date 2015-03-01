@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		17E46D20194763D70018BD4C /* EqualityDeterminer.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E46D1F194763D70018BD4C /* EqualityDeterminer.m */; };
 		17E46D22194768C90018BD4C /* EqualityDeterminerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E46D21194768C90018BD4C /* EqualityDeterminerTests.m */; };
+		644A6BBF1AA211C400DFA1D7 /* StringCheese.m in Sources */ = {isa = PBXBuildFile; fileRef = 644A6BBE1AA211C400DFA1D7 /* StringCheese.m */; };
 		64787CE71A9D64EC003A575D /* WizardOfOz.m in Sources */ = {isa = PBXBuildFile; fileRef = 64787CE61A9D64EC003A575D /* WizardOfOz.m */; };
 		931AB0B11945063500B4FB76 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B01945063500B4FB76 /* XCTest.framework */; };
 		931AB0B31945063500B4FB76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931AB0B21945063500B4FB76 /* Foundation.framework */; };
@@ -18,7 +19,6 @@
 		931AB0C71945097100B4FB76 /* MarysAppleHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0C61945097100B4FB76 /* MarysAppleHandlerTests.m */; };
 		931AB0CB19464B7700B4FB76 /* SimpleCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0CA19464B7700B4FB76 /* SimpleCalculator.m */; };
 		931AB0CD19464C3500B4FB76 /* SimpleCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0CC19464C3500B4FB76 /* SimpleCalculatorTests.m */; };
-		931AB0D1194660E000B4FB76 /* StringCheese.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0D0194660E000B4FB76 /* StringCheese.m */; };
 		931AB0D31946639F00B4FB76 /* StringCheeseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931AB0D21946639F00B4FB76 /* StringCheeseTests.m */; };
 		936964A41947B1980021C271 /* StarTrekArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964A31947B1980021C271 /* StarTrekArrays.m */; };
 		936964A61947B26B0021C271 /* StarTrekArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 936964A51947B26B0021C271 /* StarTrekArraysTests.m */; };
@@ -37,6 +37,7 @@
 		17E46D1E194763D70018BD4C /* EqualityDeterminer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EqualityDeterminer.h; sourceTree = "<group>"; };
 		17E46D1F194763D70018BD4C /* EqualityDeterminer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualityDeterminer.m; sourceTree = "<group>"; };
 		17E46D21194768C90018BD4C /* EqualityDeterminerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EqualityDeterminerTests.m; sourceTree = "<group>"; };
+		644A6BBE1AA211C400DFA1D7 /* StringCheese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCheese.m; sourceTree = "<group>"; };
 		64787CE61A9D64EC003A575D /* WizardOfOz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WizardOfOz.m; sourceTree = "<group>"; };
 		931AB0AD1945063500B4FB76 /* BlocExercises.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocExercises.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		931AB0B01945063500B4FB76 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -52,7 +53,6 @@
 		931AB0CA19464B7700B4FB76 /* SimpleCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCalculator.m; sourceTree = "<group>"; };
 		931AB0CC19464C3500B4FB76 /* SimpleCalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleCalculatorTests.m; sourceTree = "<group>"; };
 		931AB0CF194660E000B4FB76 /* StringCheese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCheese.h; sourceTree = "<group>"; };
-		931AB0D0194660E000B4FB76 /* StringCheese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCheese.m; sourceTree = "<group>"; };
 		931AB0D21946639F00B4FB76 /* StringCheeseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringCheeseTests.m; sourceTree = "<group>"; };
 		936964A21947B1980021C271 /* StarTrekArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarTrekArrays.h; sourceTree = "<group>"; };
 		936964A31947B1980021C271 /* StarTrekArrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarTrekArrays.m; sourceTree = "<group>"; };
@@ -176,7 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				931AB0CF194660E000B4FB76 /* StringCheese.h */,
-				931AB0D0194660E000B4FB76 /* StringCheese.m */,
+				644A6BBE1AA211C400DFA1D7 /* StringCheese.m */,
 				931AB0D21946639F00B4FB76 /* StringCheeseTests.m */,
 			);
 			name = "Strings and String Formatting";
@@ -303,12 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				931AB0D1194660E000B4FB76 /* StringCheese.m in Sources */,
 				931AB0D31946639F00B4FB76 /* StringCheeseTests.m in Sources */,
 				931AB0C71945097100B4FB76 /* MarysAppleHandlerTests.m in Sources */,
 				936964A61947B26B0021C271 /* StarTrekArraysTests.m in Sources */,
 				17E46D20194763D70018BD4C /* EqualityDeterminer.m in Sources */,
 				17E46D22194768C90018BD4C /* EqualityDeterminerTests.m in Sources */,
+				644A6BBF1AA211C400DFA1D7 /* StringCheese.m in Sources */,
 				64787CE71A9D64EC003A575D /* WizardOfOz.m in Sources */,
 				931AB0CD19464C3500B4FB76 /* SimpleCalculatorTests.m in Sources */,
 				931AB0C5194508D300B4FB76 /* MarysAppleHandler.m in Sources */,
