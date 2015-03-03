@@ -24,7 +24,8 @@
     /* WORK HERE */
     
     NSString *shortName = [cheeseName substringToIndex: [cheeseName length]-7];
-    NSRange nameRange = [shortName rangeOfString:@"Cheese" options:NSCaseInsensitiveSearch];
+    NSRange nameRange = [cheeseName rangeOfString:@"Cheese" options:NSCaseInsensitiveSearch];
+    
     NSLog(@"%@", NSStringFromRange(nameRange));
     NSLog(@"%@", shortName);
     
